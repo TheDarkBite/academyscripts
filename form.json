@@ -1,5 +1,6 @@
 {
     "Certification Appeal": {
+        "small description": "Submit a form if you need to appeal any certification action.",
         "description" : "Any holders that believe that their certification has been wrongfully revoked or suspended may request for a certification appeal, explaining why their certification was revoked and why it should be reinstated. Between 5-10 sentences are expected.",
         "questions" : {
             "Please describe the events to which led to the disciplinary action against your certification.": "la",
@@ -8,6 +9,7 @@
         }
     },
     "Certification Account Transfer": {
+        "small description": "Submit a form if you need to transfer accounts.",
         "description": "For any holders that need to transfer their certification to a different ROBLOX account. Under the evidence question, give proof which shows that you used to own the old account (e.g full screenshot of an email from ROBLOX mentioning your username).\n\nDatabase Link: https://docs.google.com/spreadsheets/d/1vsa5klFFKEmezEJGeNYrVF3aGmMvUqH-U9mvZ1-LmV4/edit",
         "questions": {
             "Old Account (Must be in Username:ID format)": "sa",
@@ -16,6 +18,7 @@
         }
     },
     "Blacklist Appeal": {
+        "small description": "Submit a form if you need to transfer accounts.",
         "description": "For anybody that needs to appeal an academy or a staff blacklist. They should explain why their blacklist should be removed. Between 5-7 sentences are expected.\n\nBlacklist Database: https://trello.com/b/A0JJb2YX/post-blacklist-database",
         "questions": {
             "Blacklist Link": "la",
