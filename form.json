@@ -24,5 +24,12 @@
             "Blacklist Link": "la",
             "Provide your appeal here. Lengthy responses are recommended. Appeals that put little to no effort will always be declined. Be honest with your appeal.": "la"
         }
+    },
+    "Certification Username Update": {
+        "small description": "Submit a form if you have changed your username.",
+        "description" : "Check the database to see if your username has updated. If not, submit this form. \nDatabase Link: https://docs.google.com/spreadsheets/d/1vsa5klFFKEmezEJGeNYrVF3aGmMvUqH-U9mvZ1-LmV4/edit",
+        "questions" : {
+            "By checking this box, you agree that you have tried to update your username via the POST Bot in the communications server": ["Yes I have"]
+        }
     }
 }
