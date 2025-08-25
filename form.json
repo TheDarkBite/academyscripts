@@ -1,7 +1,7 @@
 {
     "Certification Appeal": {
         "small description": "Submit a form if you need to appeal any certification action.",
-        "description" : "Any holders that believe that their certification has been wrongfully revoked or suspended may request for a certification appeal, explaining why their certification was revoked and why it should be reinstated. Between 5-10 sentences are expected.",
+        "description" : "Any holders that believe that their certification has been wrongfully revoked or suspended may request for a certification appeal, explaining why their certification was revoked and why it should be reinstated. More information can be found at\nhttps://docs.google.com/document/d/1nHklfaWjcKAhr3-MiYBV5stCsFbPT1p6ixZ34Va1Tu0/edit?tab=t.0#heading=h.dr5amj48phe",
         "questions" : {
             "Please describe the events to which led to the disciplinary action against your certification.": "la",
             "Why are you appealing this disciplinary action?": "la",
