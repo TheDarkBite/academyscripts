@@ -11,6 +11,7 @@ load_dotenv()
 API_KEY = os.getenv("TRELLO_API_KEY")
 TOKEN = os.getenv("TRELLO_TOKEN")
 LIST_ID = os.getenv("TRELLO_LIST_ID")
+BOARD_ID = os.getenv("TRELLO_BOARD_ID")
 
 ROBLOX_COOKIE = os.getenv("ROBLOX_COOKIE")
 
@@ -35,7 +36,7 @@ async def main():
 
     if members:
         print(f"\nFound {len(members)} members with rank '{target_rank}':")
-        alreadyaddedcards = requests.get("https://api.trello.com/1/lists/" + LIST_ID + "/cards", headers={"Accept": "application/json"}, params={"key": API_KEY, "token": TOKEN}).json()
+        alreadyaddedcards = requests.get("https://api.trello.com/1/boards/" + BOARD_ID + "/cards", headers={"Accept": "application/json"}, params={"key": API_KEY, "token": TOKEN}).json()
         alreadyaddednames = [alreadyaddedcard["name"] for alreadyaddedcard in alreadyaddedcards]
         for name in members:
             if name[0] in alreadyaddednames:
